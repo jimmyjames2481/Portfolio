@@ -8,6 +8,8 @@
     width: 100%;
     background-color: #2C3E50;
     position: fixed;
+    /*permet de decoller le menu au dessus evite le chevauchement*/
+    z-index: 10;
 }
 .nav{
     height: 70px;
@@ -76,3 +78,24 @@
     border-top: solid 5px;
     border-color: whitesmoke!important
 }
+.row{
+    padding-top: 25px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/*div{
+	width:200px;
+	height:100px;
+	background-color:lightcoral;
+	opacity:.9;
+	transition:all 0.5s;
+}
+div:hover{
+	box-shadow: 5px 5px 10px #888888;
+	opacity:1;
+}
+.fas{
+	outline-width: 0;
+}*/
