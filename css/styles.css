@@ -41,46 +41,38 @@
     margin-top: 70px;
     text-decoration: whitesmoke;
 }
-.bienvenue{
-    display: block;
+.bienvenue ,.unpeudemoi{
     background-color: lightslategrey;
 }
-.fas{
+.portfolio ,.contact{
+    background-color: #18BC9C;
+}
+#light{
     font-size: 3em;
     color: whitesmoke;
     background-color: #778899;
     padding: 0px 10px;
     margin-top: 10px;
 }
-.home{
+#dark{
+    font-size: 3em;
+    color: #6c757d;
+    background-color: #18BC9C;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.home ,.livre ,.moi ,.tel{
     width: 250px;
     margin: auto;
     text-align: center;
 }
-.portfolio{
-    background-color: #18BC9C;
-}
-.unpeudemoi{
-    background-color: lightslategrey;
-}
-.contact{
-    background-color: #18BC9C;
-}
 .star-dark{
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
+    margin-top: -23px;
     border-top: solid 5px;
-    text-align: center;
     border-color: #6c757d!important
 }
 .star-light{
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
+    margin-top: -23px;
     border-top: solid 5px;
-    text-align: center;
     border-color: whitesmoke!important
 }

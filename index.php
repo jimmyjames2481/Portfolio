@@ -37,9 +37,8 @@
             <div class="containerBienvenue">
                 <h2 class="h2 white h2bienvenue text-center text-uppercase text-secondary mb-0">Bienvenue</h2>
                 <div class="home">
-                    <i class="fas fa-home"></i>
+                    <i id="light" class="fas fa-home"></i>
                     <hr class="star-light">
-
                 </div>
             </div>
         </section>
@@ -48,7 +47,10 @@
         <section class="portfolio block" id="portfolio">
             <div class="containerPortfolio">
                 <h2 class="h2 dark text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <hr class="star-dark">
+                <div class="livre">
+                    <i id="dark" class="fas fa-paint-brush"></i>
+                    <hr class="star-dark">
+                </div>
             </div>
         </section>
 
@@ -56,7 +58,10 @@
         <section class="unpeudemoi block" id="unpeudemoi">
             <div class="containerUnpeudemoi">
                 <h2 class="h2 white text-center text-uppercase text-secondary mb-0">Un peu de moi</h2>
-                <hr class="star-light">
+                <div class="moi">
+                    <i id="light" class="fas fa-thumbs-up"></i>
+                    <hr class="star-light">
+                </div>
             </div>
         </section>
 
@@ -64,7 +69,10 @@
         <section class="contact block" id="contact">
             <div class="containerContact">
                 <h2 class="h2 dark text-center text-uppercase text-secondary mb-0">Contact</h2>
-                <hr class="star-dark">
+                <div class="tel">
+                    <i id="dark" class="fas fa-mobile-alt"></i>
+                    <hr class="star-dark">
+                </div>
             </div>
         </section>
         <!--fin des sections-->
