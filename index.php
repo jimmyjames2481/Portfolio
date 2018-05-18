@@ -7,6 +7,10 @@
         <!--lien bootstrap-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
         <!--fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
@@ -18,14 +22,15 @@
 
         <title>BIENVENUE</title>
     </head>
+
     <body>
         <!--debut du menu-->
         <div class="containerMenu">
             <nav class="nav nav-pills flex-column flex-sm-row navbar-fixed-top">
-                <a class="flex-sm-fill text-sm-center nav-link activegreen disabled" data-active="activegreen" href="#bienvenue">BIENVENUE</a>
-                <a class="flex-sm-fill text-sm-center nav-link disabled" data-active="activedark" href="#portfolio">PORTFOLIO</a>
-                <a class="flex-sm-fill text-sm-center nav-link disabled" data-active="activegreen" href="#unpeudemoi">UN PEU DE MOI</a>
-                <a class="flex-sm-fill text-sm-center nav-link disabled" data-active="activedark" href="#contact">CONTACT</a>
+                <a class="flex-sm-fill text-sm-center nav-link activegreen disabled" data-active="activegreen" href="#bienvenue"><i id="acceuil" class="fas fa-home"></i></a>
+                <a class="flex-sm-fill text-sm-center nav-link disabled" data-active="activedark" href="#portfolio"><i id="pinceau" class="fas fa-paint-brush"></i>PORTFOLIO</a>
+                <a class="flex-sm-fill text-sm-center nav-link disabled" data-active="activegreen" href="#unpeudemoi"><i id="pouce" class="fas fa-thumbs-up"></i>UN PEU DE MOI</a>
+                <a class="flex-sm-fill text-sm-center nav-link disabled" data-active="activedark" href="#contact"><i id="phone" class="fas fa-mobile-alt"></i>CONTACT</a>
             </nav>
         </div>
         <!--fin du menu-->
@@ -40,6 +45,10 @@
                     <i id="light" class="fas fa-home"></i>
                     <hr class="star-light">
                 </div>
+                <div>
+                    <p id="presentation">Bienvenue sur mon Portfolio!!!!!<br> </p>
+                        
+                      
             </div>
         </section>
 
@@ -51,25 +60,85 @@
                     <i id="dark" class="fas fa-paint-brush"></i>
                     <hr class="star-dark">
                 </div>
+
                 <!-- Portfolio Grid Section -->
+                <!--container 1-->
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
-                            <h3 class="text-center text-uppercase text-secondary mb-0">Projet SAS</h3>
-                            <div>
-                             <img class="img-fluid" src="images/submarine.png" alt=""/>
-                             <i class="fa fa-search-plus fa-3x"></i>
-                             </div>
+                            <a class="imgContainer" href="">
+                                <img class="img-fluid" src="images/submarine.png" alt=""/>
+                                <div class='effet3DHover'>
+                                    <div class="textHover">
+                                        <h3>Projet SAS</h3>
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                       
+                        <!--container 2-->
                         <div class="col-sm">
-                            <h3 class="text-center text-uppercase text-secondary mb-0">Projet START</h3>
-                             <img class="img-fluid" src="images/submarine.png" alt=""/>
+                            <a class="imgContainer" href="fichiers/ProjetStartFinalrendu.pdf" target="blank">
+                                <img class="img-fluid" src="images/submarine.png" alt=""/>
+                                <div class='effet3DHover'>
+                                    <div class="textHover">
+                                        <h3>Projet START</h3>
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
+                        <!--container 3-->
                         <div class="col-sm">
-                            <h3 class="text-center text-uppercase text-secondary mb-0">Projet Evolution</h3>
-                             <img class="img-fluid" src="images/submarine.png" alt=""/>
+                            <a class="imgContainer" href="">
+                                <img class="img-fluid" src="images/submarine.png" alt=""/>
+                                <div class='effet3DHover'>
+                                    <div class="textHover">
+                                        <h3>Projet EVOLUTION</h3>
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
+                        <!--container 4-->
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <a class="imgContainer" href="">
+                                <img class="img-fluid" src="images/submarine.png" alt=""/>
+                                <div class='effet3DHover'>
+                                    <div class="textHover">
+                                        <h3>Projet SAS</h3>
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--container 5-->
+                        <div class="col-sm">
+                            <a class="imgContainer" href="">
+                                <img class="img-fluid" src="images/submarine.png" alt=""/>
+                                <div class='effet3DHover'>
+                                    <div class="textHover">
+                                        <h3>Projet START</h3>
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!--container 6-->
+                        <div class="col-sm">
+                            <a class="imgContainer" href="">
+                                <img class="img-fluid" src="images/submarine.png" alt=""/>
+                                <div class='effet3DHover'>
+                                    <div class="textHover">
+                                        <h3>Projet EVOLUTION</h3>
+                                        <i class="fa fa-search-plus fa-3x"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -83,7 +152,9 @@
                     <i id="light" class="fas fa-thumbs-up"></i>
                     <hr class="star-light">
                 </div>
-            </div>
+                <div class="profile">
+                    <img id="jimmy" src="images/jimmy.jpeg" alt=""/>
+                </div>
         </section>
 
         <!--section 4-->
